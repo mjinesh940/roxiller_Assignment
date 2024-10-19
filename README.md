@@ -94,6 +94,3 @@ Transactions Bar Char (Use your created API to fetch the data)
 the selected month irrespective of the year using API
 - Month selected from dropdown (above the table) should be applied here
 
-
-https://github.com/Mrinalummadising/Roxiler-System-assessment/assets/138893163/bed6ae89-9c36-4eab-8d35-a66cc38f4e43
-
