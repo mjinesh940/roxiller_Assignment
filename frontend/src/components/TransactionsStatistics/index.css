@@ -1,0 +1,69 @@
+.transactions-statistics {
+  background-color: #232f3e; /* Amazon dark background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #37475a; /* Amazon's grey-blue color */
+  border-radius: 10px;
+  color: #ff9900; /* Amazon accent color */
+  padding: 15px;
+  width: 100%; /* Ensure the container is responsive */
+  max-width: 400px; /* Optional max-width */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statistics-container:hover {
+  background-color: #131a22; /* Darker on hover */
+  transform: scale(1.03); /* Slight zoom */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Elevation */
+}
+
+.statistics-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 153, 0, 0.4);
+}
+
+.statistics-item:last-child {
+  border-bottom: none; 
+}
+
+.statistics-item:hover {
+  background-color: rgba(255, 153, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.statistics-item p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.statistics-title {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ff9900;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .statistics-container {
+    width: 90%;
+    padding: 10px;
+  }
+}
